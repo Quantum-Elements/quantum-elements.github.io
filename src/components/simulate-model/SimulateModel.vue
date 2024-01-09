@@ -46,23 +46,23 @@
           </div>
 
           <div class="form-group d-flex-gap align-items-center">
-            <label for="" style="text-wrap: nowrap;" class="me-3">| 1 ></label>
+            <label for="" style="white-space: nowrap;" class="me-3">| 1 ></label>
             <img src="@/assets/gate-type-slider.svg"  alt="">
           </div>
           <div class="form-group d-flex-gap align-items-center">
-            <label for="" style="text-wrap: nowrap;" class="me-3">| 1 ></label>
+            <label for="" style="white-space: nowrap;" class="me-3">| 1 ></label>
             <img src="@/assets/gate-type-slider.svg"  alt="">
           </div>
           <div class="form-group d-flex-gap align-items-center">
-            <label for="" style="text-wrap: nowrap;" class="me-3">| 1 ></label>
+            <label for="" style="white-space: nowrap;" class="me-3">| 1 ></label>
             <img src="@/assets/gate-type-slider.svg"  alt="">
           </div>
           <div class="form-group d-flex-gap align-items-center">
-            <label for="" style="text-wrap: nowrap;" class="me-3">| 1 ></label>
+            <label for="" style="white-space: nowrap;" class="me-3">| 1 ></label>
             <img src="@/assets/gate-type-slider.svg"  alt="">
           </div>
           <div class="form-group d-flex-gap align-items-center">
-            <label for="" style="text-wrap: nowrap;" class="me-3">| 1 ></label>
+            <label for="" style="white-space: nowrap;" class="me-3">| 1 ></label>
             <img src="@/assets/gate-type-slider.svg"  alt="">
           </div>
         </div>
@@ -93,7 +93,7 @@
             <label for="range" class="form-label">Range</label>
             <div class="d-flex-gap align-items-center">
                 <input type="number" class="form-control" style="max-width:6rem" value="0" />
-              <div style="text-wrap: nowrap;">≤ t ≤</div>
+              <div style="white-space: nowrap;">≤ t ≤</div>
                 <input type="number" class="form-control" style="max-width:6rem" value="20" />
             </div>
           </div>

@@ -123,19 +123,19 @@
       <div class="card-body">
         <div class="bg-dark p-4 border-radius">
           <div class="form-group d-flex align-items-center">
-            <label for="" class="form-label me-3" style="text-wrap: nowrap;">Fr <sub>0</sub></label>
+            <label for="" class="form-label me-3" style="white-space: nowrap;">Fr <sub>0</sub></label>
             <input type="text" class="form-control" value="99.85%">
           </div>
           <div class="form-group d-flex align-items-center">
-            <label for="" class="form-label me-3" style="text-wrap: nowrap;">Fr <sub>1</sub></label>
+            <label for="" class="form-label me-3" style="white-space: nowrap;">Fr <sub>1</sub></label>
             <input type="text" class="form-control" value="99.92%">
           </div>
           <div class="form-group d-flex align-items-center">
-            <label for="" class="form-label me-3" style="text-wrap: nowrap;">Fr <sub>2</sub></label>
+            <label for="" class="form-label me-3" style="white-space: nowrap;">Fr <sub>2</sub></label>
             <input type="text" class="form-control" value="-----">
           </div>
           <div class="form-group d-flex align-items-center">
-            <label for="" class="form-label me-3" style="text-wrap: nowrap;">T <sup>R</sup></label>
+            <label for="" class="form-label me-3" style="white-space: nowrap;">T <sup>R</sup></label>
             <input type="text" class="form-control" value="0.31us">
           </div>
           <img src="@/assets/readout-parameters.svg" alt="">
@@ -157,17 +157,17 @@
             <input type="text" class="form-control" value="98.15%">
           </div>
           <div class="form-group d-flex-gap align-items-center">
-            <label for="" class="d-flex"><div style="text-wrap: nowrap;">| 2 ></div></label>
+            <label for="" class="d-flex"><div style="white-space: nowrap;">| 2 ></div></label>
             <img src="@/assets/level-horizontal.svg" alt="" class="img-100">
             <input type="text" class="form-control me-3" value="1.0" style="width:2rem">
           </div>
           <div class="form-group d-flex-gap align-items-center">
-            <label for="" class="d-flex"><div style="text-wrap: nowrap;">| 1 ></div></label>
+            <label for="" class="d-flex"><div style="white-space: nowrap;">| 1 ></div></label>
             <img src="@/assets/level-horizontal.svg" alt="" class="img-100">
             <input type="text" class="form-control me-3" value="0.0" style="width:2rem">
           </div>
           <div class="form-group d-flex-gap align-items-center">
-            <label for="" class="d-flex"><div style="text-wrap: nowrap;">| 0 ></div></label>
+            <label for="" class="d-flex"><div style="white-space: nowrap;">| 0 ></div></label>
             <img src="@/assets/level-horizontal.svg" alt="" class="img-100">
             <input type="text" class="form-control me-3" value="0.0" style="width:2rem">
           </div>
@@ -214,7 +214,7 @@
           </div>
           <div class="form-group">
             <label for="" class="form-label">Cutoff frequency</label>
-            <div class="d-flex-gap align-items-center" style="text-wrap: nowrap;">
+            <div class="d-flex-gap align-items-center" style="white-space: nowrap;">
               <span class="me-3">W <sub>c</sub></span>
               <input type="text" class="form-control" value="0.1GHz">
             </div>
