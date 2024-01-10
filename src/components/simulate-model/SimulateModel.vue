@@ -114,6 +114,9 @@
         <div class="bg-dark p-4 border-radius">
           <img src="@/assets/img-gate-fidelity-map-2.jpeg" alt="" style="width: 400px;">
         </div>
+        <div class="bg-dark p-4 border-radius">
+          <img src="@/assets/image-simulate-matrix.png" alt="" style="width: 400px;">
+        </div>
       </div>
       <!-- <div class="card-header d-flex justify-content-between" style="padding-top: 1rem; padding-bottom: 1rem">
         <h4 class="card-title d-flex align-items-center">Gate Fidelity Map - CZ Gate</h4>

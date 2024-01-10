@@ -1,6 +1,7 @@
 // Variables
-$main: #30404e;
-$main-dark: #28323f;
+$main: #00013c;
+$main-dark: #000128;
+$form-color: #001f5e;
 $gray: #f1f3f5;
 
 $bdrs: 0.8rem;
@@ -23,7 +24,7 @@ html {
   //   font-family: Lato, "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-family: "Inter", sans-serif;
-  background-color: #2d3745;
+  background-color: #000128;
 
   background-image: radial-gradient(
     rgba(255, 255, 255, 0.3) 1px,
@@ -257,7 +258,7 @@ html {
 
       &-main {
         .logo {
-          margin-right: 3rem;
+          width: 15%;
         }
 
         padding: 1rem 2rem;
@@ -265,7 +266,7 @@ html {
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 
         .btn-group {
-          background-color: #6b7b92;
+          background-color: $form-color;
           display: flex;
           border-radius: $bdrs;
           padding: 0.1rem;
@@ -273,7 +274,6 @@ html {
           button {
             background-color: transparent;
             color: white;
-            border: 0;
             padding: 1rem 2rem;
             border-radius: $bdrs;
             transition: all 0.2s ease-in-out;
@@ -284,7 +284,6 @@ html {
             &:hover {
               background-color: $main-dark;
               box-shadow: $bxshsm;
-              border: 1px solid rgba(255, 255, 255, 0.4);
             }
           }
         }
@@ -396,11 +395,9 @@ html {
   }
   &-select,
   &-control {
-    background-color: $main-dark;
+    background-color: $form-color;
     color: white;
-    border-width: 1px;
-    border-color: rgba(255, 255, 255, 0.2);
-    border-style: solid;
+    border: none;
     border-radius: $bdrs;
     padding: $spacer-4 $spacer-3;
     display: block;
@@ -480,7 +477,8 @@ ul.list-workflow {
 
 .nav-tabs {
   box-shadow: inset 0 0.2rem 1rem rgba(0, 0, 0, 0.2);
-  padding: $spacer-1;
+  padding: 0.1rem;
+  background-color: $form-color;
   border-radius: $bdrs;
 
   .nav-tab {

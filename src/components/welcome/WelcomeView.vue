@@ -3,7 +3,7 @@
 <template>
   <div class="dashboard-navs">
     <nav class="dashboard-navs-main d-flex justify-content-center">
-      <img src="@/assets/logo_qe_white1.svg" alt="Quantum Elements Logo" class="logo">
+      <img src="@/assets/logo/logo_hor_white_colour.svg" alt="Quantum Elements Logo" class="logo">
     </nav>
   </div>
   <!-- WELCOME  -->
